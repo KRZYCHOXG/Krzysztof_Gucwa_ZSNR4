@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZD5 - Warunki</title>
+</head>
+<body>
+
+    <div class="wynik"></div>
+
+    <script>
+        alert('WITAMY w programie JS');
+        const z = prompt('Zapodaj swoją 1. liczbe');
+        const x = prompt('Zapodaj swoją 2. liczbe');
+        const c = prompt('Zapodaj swoją 3. liczbe');
+
+        const wynik = document.querySelector('wynik');
+        if(z>x)
+        {
+            if(z>c)
+        {
+            if(x>c)
+            {
+                wynik.textContent = c+ ' ' + x + ' ' + z;
+            }
+            else
+            {
+                wynik.textContent = x+ ' ' + c + ' ' + z;
+            }
+            }
+            else 
+            {
+                wynik.textContent = x+ ' ' + z + ' ' + c;
+            }
+        }
+            else
+            {
+                if(z>c)
+                {
+                    wynik.textContent = z+ ' ' + x + ' ' + c;
+                }
+                else
+                {
+                    wynik.textContent = x+ ' ' + z + ' ' + c;
+                }
+            }
+    </script>
+
+</body>
+</html>
