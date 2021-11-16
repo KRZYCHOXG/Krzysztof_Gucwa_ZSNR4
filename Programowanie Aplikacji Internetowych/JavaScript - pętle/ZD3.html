@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZD3 - Pętle</title>
+</head>
+<body>
+    <form action="">
+        <input type="number" name="liczba1" placeholder="1.">
+        <input type="number" name="liczba2" placeholder="2.">
+        <button type="submit">Oblicz NWD</button> 
+    </form>
+    <div class="wynik"></div>
+    <script>
+        alert('WITAMY w programie JS');
+        let form = document.querySelector('form');
+        let div = document.querySelector('div');
+        form = addEventListener('submit', ()=> {
+            e.preventDefault();
+
+            const liczba1 = parseInt(document.querySelector('input[name="liczba1"]').value);
+            const liczba2 = parseInt(document.querySelector('input[name="liczba2"]').value);
+            while(liczba1 != liczba2){
+                
+                if(liczba1 > liczba2 ){
+                liczba1 = liczba1 - liczba2;
+                }  else {
+                liczba2 = liczba2 - liczba1;
+                   }
+           }
+            div.textContent = `NWD liczby ${liczba1} i ${liczba2} wynosi: ${liczba1}`;
+        });
+    </script>
+</body>
+</html>
