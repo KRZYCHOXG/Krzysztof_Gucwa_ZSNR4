@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZD6 - Instrukcje</title>
+</head>
+<body>
+    
+    <div class="wynik"></div>
+
+    <script>
+        alert("WITAMY w programie JS");
+        let a = prompt('Wprowadz 1. liczbe ');
+        let b = prompt('Wprowadz 2. liczbe ');
+        const wynik = document.querySelector('wynik');
+
+            if(a % b == 0)
+            {
+                wynik.textContent = 'Ta liczba ' + a + ' jest podzielna przez ' + b;
+            }
+            else
+            {
+                wynik.textContent = 'Ta liczba ' + b + ' nie moze byc podzielna przez ' + b;
+            }
+
+    </script>
+
+</body>
+</html>
