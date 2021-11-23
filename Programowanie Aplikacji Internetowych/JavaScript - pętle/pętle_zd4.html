@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZD4 - Pętle</title>
+</head>
+<body>
+    <form action="">
+        <input tpye="number" name="liczba1" placeholder="Podaj Liczbe"/>
+        <button type="submit">Oblicz Silnie</button>
+    </form>
+    <div class="wynik"></div>
+
+    <script>
+        const form = document.querySelector('form');
+        const div = document.querySelector('.wynik');
+        form.addEventListener('submit', (e) =>{
+            e.preventDefault();
+            let a = document.querySelector('input[name = "liczba1"]').value*1;
+            let silnie = 1;
+            if(a == 0)
+            {
+                div.textContent = 0;
+            }
+            else
+            {
+                for(let i = 1; i <= a; i++)
+                {
+                    silnie = silnie * i;
+                }
+                div.textContent = "Silnia z liczby " + a + " wynosi: " + silnie;
+            }
+            
+        });
+    </script>
+
+</body>
+</html>
