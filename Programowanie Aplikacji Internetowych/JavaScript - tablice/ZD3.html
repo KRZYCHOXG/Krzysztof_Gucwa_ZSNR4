@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZD3 - Tablice</title>
+</head>
+<body>
+    <div class="tablica"></div>
+    <div class="suma"></div>
+    <div class="ileZer"></div>
+
+    <script>
+        alert('WITAMY w programie JS');
+        const divTablica = document.querySelector('.tablica');
+        const divSuma = document.querySelector('.suma');
+        const divIleZer = document.querySelector('.ileZer');
+
+       const liczby = [];
+       let suma = 0; 
+       let ileZer = 0;
+
+       for(let i = 0 ; i < 10000 ; i++){
+            liczby[i] = Math.round(Math.random() * 100);
+            suma += liczby[i];
+       }
+
+       for (const liczba of liczby){
+           if (liczba==0) {
+            ileZer++;
+           }
+       }
+
+       divTablica.textContent = (liczby.join(', '));
+       divSuma.textContent = `Suma wynosi: ${suma}`;
+       divIleZer.textContent = `Ilość zer: ${ileZer}`;
+    </script>
+</body>
+</html>
