@@ -1,5 +1,5 @@
 # Modding pełną parą ⚡
-> Windows sie wykrzaczył
+> Windows sie wykrzaczył :o
 
 <p align="center">
   <img src="https://neosmart.net/wiki/wp-content/uploads/sites/5/2014/06/0x000000D1.png" width="1050" title="hover text">
