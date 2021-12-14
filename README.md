@@ -1,4 +1,4 @@
-# Krzysztof Gucwa
+# Modding pełną parą ⚡
 
 BSOD - Windows sie wykrzaczył
 
