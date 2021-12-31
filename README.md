@@ -7,5 +7,5 @@
 </p>
 <br>
 <p align="center">
-  <img src="https://www.instagram.com/coding_guys_/p/CX2prqEF02O/?utm_medium=copy_link"
+  <img src="https://images.app.goo.gl/ox2tLcpb4tKryScK6"
 </p>
