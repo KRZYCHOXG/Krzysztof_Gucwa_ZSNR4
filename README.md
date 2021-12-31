@@ -1,6 +1,6 @@
 # Bardzo dobra robota!  ✅
 
-> Stabilny Windows  💽
+Stabilny Windows  💽
 
 <br>
 <p align="center">
