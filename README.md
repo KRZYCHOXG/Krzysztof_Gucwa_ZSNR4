@@ -1,5 +1,6 @@
-# Modding pełną parą ⚡
-> Windows sie wykrzaczył 🖥️
+# Bardzo dobra robota! ✅
+
+> Stabilny Windows 💽
 
 <br>
 <p align="center">
