@@ -9,7 +9,6 @@ Stabilny Windows  💽
 </p>
 <br>
 <p align="center">
-  <img src="">
 </p>
 <br>
 <p align="center">
