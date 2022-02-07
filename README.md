@@ -12,5 +12,5 @@ Stabilny Windows  💽
 </p>
 <br>
 <p align="center">
-  <img src="https://i1.kwejk.pl/k/obrazki/2021/01/kyjIgf0CiabAESUW.jpg" width="263">
+  <img src="https://i1.kwejk.pl/k/obrazki/2021/01/kyjIgf0CiabAESUW.jpg" width="400">
 </p>
