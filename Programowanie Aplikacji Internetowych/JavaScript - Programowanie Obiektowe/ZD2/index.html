@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZD2</title>
+</head>
+<body>
+    <div>
+
+    </div>
+    <script src="Komis.js"></script>
+    <script src="Samochod.js"></script>
+    <script> 
+        const Opel = new Samochod('Opel', 'Vectra C GTS', 10000, 2004, 6.9);
+        const Fiat = new Samochod('Fiat', 'Punto', 9000, 2012, 5.4);
+        const Ford = new Samochod('Fordzik', 'Fusion', 20000, 2012, 7);
+        const Volkswagen = new Samochod('Volkswagen', 'Passat B4', 3200, 1994, 12);
+        // Tworzymy obiekt 
+        const asso = new Komis('asso');
+
+        asso.dodajSamochod(Opel);
+        asso.dodajSamochod(Ford);      
+        asso.dodajSamochod(Fiat);
+        asso.dodajSamochod(Volkswagen);
+        asso.wyswietlSamochody();
+
+        console.log(document.querySelector('div'));
+
+    </script>
+</body>
+</html>
