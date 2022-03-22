@@ -1,0 +1,23 @@
+.naglowek {
+    color: orange;
+}
+
+.div {
+    font-size: 40px;
+    color: blue;
+}
+
+.p1 {
+    text-decoration: underline;
+}
+
+span {
+    font-weight: lighter;
+    color: cadetblue;
+}
+
+.zmiana {
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
