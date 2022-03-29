@@ -15,6 +15,10 @@ void pytanie::wczytajPytanie() {
 
         while(getline(plik,linia)) {
             if (licznik == nrLinii) trescPytania = linia;
+            if (licznik == nrLinii+1) a = linia;
+            if (licznik == nrLinii+2) b = linia;
+            if (licznik == nrLinii+3) c = linia;
+            if (licznik == nrLinii+4) poprawna = linia;
             licznik++;
 
         }
