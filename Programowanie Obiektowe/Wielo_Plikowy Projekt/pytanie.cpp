@@ -28,6 +28,10 @@ void pytanie::wczytajPytanie() {
 
 void pytanie::zadajPytanie() {
      cout << trescPytania << endl;
+     cout << a << endl;
+     cout << b << endl;
+     cout << c << endl;
+     cout << poprawna << endl;
 }
 
 void pytanie::sprawdz() {
