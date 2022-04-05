@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="web">
+    <div class="najs">
+        <h2>Współrzędna X kursorwa myszy: 0</h2>
+        <h2>Współrzędna Y kursorwa myszy: 0</h2>
+        <h2>Nacisnieto klawisz: </h2>
+    </div>
+    <script>
+        // Pobieramy komentarz na wszystkie h2
+        const headerH2 = document.querySelectorAll('h2');
+        document.addEventListener('mousemove', (e)=>{
+            // Współrzędna X kursorwa myszy - event.clientX
+            // Współrzędna Y kursorwa myszy - event.clientY
+            console.log('Hehe, bedzie działać');
+            headerH2[0].textContent = `Współrzędna X kursorwa myszy: ${event.clientX}`;
+            headerH2[1].textContent = `Współrzędna Y kursorwa myszy: ${event.clientY}`;
+        });
+        // Obsługa klawiatury
+        document.addEventListener('keydown', (e)=>{
+            // Jaki klawisz naciśnieto
+            headerH2[2].textContent = `Nacisnieto klawisz: ${event.key}`;
+        });
+    </script>
+</body>
+</html>
