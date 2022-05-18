@@ -1,17 +1,22 @@
-#include "pytanie.h"
-
+#ifndef PYTANIE_H
+#define PYTANIE_H
+#include <iostream>
 using namespace std;
 
-int main()
-{
-    pytanie p1;
-    p1.nrPytania = 1;
-    p1.wczytajPytanie();
-    p1.zadajPytanie();
 
-    pytanie p2;
-    p2.nrPytania = 2;
-    p2.wczytajPytanie();
-    p2.zadajPytanie();
-    return 0;
-}
+class pytanie
+{
+    public:
+    string trescPytania;
+    string a,b,c;
+    string poprawna;
+    string odpowiedz;
+    int punkty,nrPytania;
+
+    void wczytajPytanie();
+    void zadajPytanie();
+    void sprawdz();
+
+};
+
+#endif // PYTANIE_H
