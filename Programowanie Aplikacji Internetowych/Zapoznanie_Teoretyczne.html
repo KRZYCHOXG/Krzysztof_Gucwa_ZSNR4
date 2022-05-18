@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KG 3i</title>
+</head>
+<body>
+    <script>
+        
+        // Zapoznanie Teoretyczne
+
+        //var && let && const
+        /*const a = [1,2,3];
+        a = 20;
+        console.log(a);
+        a[3] = 4;
+        console.log(a);*/
+        /*var a = 10;
+        let b = 20;
+        console.log(a,b);
+        {
+            a = 100;
+            b = 200;
+        }
+        console.log(a,b);*/
+
+        // ZD.1
+
+        /*const liczba1 = prompt('Podaj 1 liczbe ');
+        const liczba2 = prompt('Podaj 2 liczbe ');
+        const liczba3 = prompt('Podaj 3 liczbe ');*/
+
+        //document.write('<div> Podane liczby to -> </div>');
+        //document.write('<div> Wynik 1 to ' + liczba1  + ', Wynik 2 to = ' + liczba2 + ', Wynik 3 to = ' + liczba3 + '</div>');
+        //document.write(`<div> Wynik 1 = ${liczba1}, Wynik 2 = ${liczba2}, Wynik 3 = ${liczba3} </div>`);
+
+        // ZD.2
+
+        const wartosc_promienia = prompt("Podaj promień okręgu ");
+        const wartosc_obwodu = prompt("Podaj obwód okręgu ");
+        let obwod = 2*3.14 * wartosc_promienia;
+        var pole = 3.14 * wartosc_promienia * wartosc_promienia;
+        document.write(`<div> Pole okręgu to -> ${pole} `); 
+        document.write(`<div> Obwod okręgu to -> ${obwod} `);    
+
+    </script>
+</body>
+</html>
