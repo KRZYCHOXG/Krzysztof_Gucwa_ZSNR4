@@ -3,16 +3,11 @@
 #include <algorithm>
 using namespace std;
 
-    class czlowiek
-    {
-    public:
-        string imie;
-        string nazwisko;
-        string numer;
-        czlowiek( string ximie, string xnazwisko, string xnumer ): imie( ximie )
-                , nazwisko( xnazwisko )
-                , numer( xnumer ){};
-    };
+Czlowiek::Czlowiek(string imie, string nazwisko, string numer) {
+    this-> imie = imie;
+    this-> nazwisko = nazwisko;
+    this-> numer = numer;
+}
 
     int main()
     {
