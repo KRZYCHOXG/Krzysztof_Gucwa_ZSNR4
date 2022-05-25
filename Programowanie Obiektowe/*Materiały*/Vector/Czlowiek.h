@@ -1,16 +1,17 @@
 #ifndef CZLOWIEK_H
 #define CZLOWIEK_H
 
-
-class Czlowiek
-{
+class czlowiek
+    {
+        std::using namespace;
     public:
-        Czlowiek();
-        virtual ~Czlowiek();
-
-    protected:
-
-    private:
-};
+        string imie;
+        string nazwisko;
+        string numer;
+        czlowiek( string ximie, string xnazwisko, string xnumer ): imie( ximie )
+                , nazwisko( xnazwisko )
+                , numer( xnumer ){};
+                private:
+    };
 
 #endif // CZLOWIEK_H
