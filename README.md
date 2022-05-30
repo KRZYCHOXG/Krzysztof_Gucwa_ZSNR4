@@ -1,6 +1,7 @@
 # Bardzo dobra robota!  ✅
 
 Stabilny Windows  💽
+<br>
 
 <div align="center">
   <img src="https://media.giphy.com/media/EEpUuOXLdQ5ws/giphy.gif" width="900px"/>
