@@ -3,7 +3,7 @@
 Stabilny Windows  💽
 
 <div align="center">
-  <img src="https://media.giphy.com/media/EEpUuOXLdQ5ws/giphy.gif"/>
+  <img src="https://media.giphy.com/media/EEpUuOXLdQ5ws/giphy.gif" width="900px"/>
 </div>
 
 <br>
