@@ -2,6 +2,10 @@
 
 Stabilny Windows  💽
 
+<div align="center">
+  <img src="https://media.giphy.com/media/xT9IghIRVNQz9cY8i4/giphy.gif" width="600" height="300"/>
+</div>
+
 <br>
 <p align="center">
   <img src="https://i.wpimg.pl/1280x/filerepo.grupawp.pl/api/v1/display/embed/cdf45887-0724-44e9-84a8-1961e271b390" width="1050" alt="accessibility text">
