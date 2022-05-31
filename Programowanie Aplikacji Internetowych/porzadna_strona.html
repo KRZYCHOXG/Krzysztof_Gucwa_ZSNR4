@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 1c</title>
+</head>
+<body>
+    <form>
+        <div><input type="text" name="wrt1" value=""></div>
+        <div><input type="text" name="wrt2" value=""></div>
+        <div><input type="text" name="wrt4" value=""></div>
+        <div><button type="submit" value="Przycisk">Przycisk</button></div>
+    </form>
+    <div class="wynik">
+    </div>
+    <script>
+        const form = document.querySelector('button');
+        const div = document.querySelector('.div');
+        var obliczenie = 0;
+        const wynik = document.querySelector('.wynik');
+        form.addEventListener('click', function(e){
+            e.preventDefault();
+
+            const wrt1 = document.querySelector('input[name="wrt1"]').value*1;
+            const wrt2 = document.querySelector('input[name="wrt2"]').value*1;
+            const symbol = document.querySelector('input[name="wrt4"]').value;
+            console.log(symbol);
+
+        if(symbol == '+')
+            {
+                obliczenie = (wrt1 + wrt2);
+                wynik.textContent = 'Obliczenie sumy to: ' + obliczenie;
+            }
+        if(symbol == '-')
+            {
+                obliczenie = (wrt1 - wrt2);
+                wynik.textContent = 'Obliczenie odejmowania wynosi: ' + obliczenie;
+            }
+        if(symbol == '*')
+            {
+                obliczenie = (wrt1 * wrt2);
+                wynik.textContent = 'Obliczenie mnożenia będzie równe: ' + obliczenie;
+            }
+        if(symbol == '/')
+            {
+                obliczenie = (wrt1 / wrt2);
+                wynik.textContent = 'Obliczenie dzielenia wyjdzie: ' + obliczenie;
+            }});        
+    </script>
+</body>
+</html>
