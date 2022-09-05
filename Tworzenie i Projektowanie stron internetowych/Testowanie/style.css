@@ -1,0 +1,21 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    background-color: black;
+}
+.h1 {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.dive {
+    background-color: green;
+    padding: 30px;
+    border: 10px solid yellow;
+    width: 300px;
+    height: 300px;
+}
