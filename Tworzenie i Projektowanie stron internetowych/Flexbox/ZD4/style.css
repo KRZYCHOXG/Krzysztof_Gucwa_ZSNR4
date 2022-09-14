@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu {
+    height: 25px;
+    background-color: cyan;
+}
+.header {
+    height: 80px;
+    background-color: red;
+}
+.content1 {
+    display: flex;
+    flex-basis: 75%;
+    height: 240px;
+    background-color: darkcyan;
+}
+.content2 {
+    display: flex;
+    flex-basis: 75%;
+    height: 240px;
+    background-color: purple;
+}
+.sidebar {
+    display: flex;
+    flex-basis: 25%;
+    color: gray;
+    background-color: yellow;
+}
+.footer {
+    height: 40px;
+    background-color: darkviolet;
+}
