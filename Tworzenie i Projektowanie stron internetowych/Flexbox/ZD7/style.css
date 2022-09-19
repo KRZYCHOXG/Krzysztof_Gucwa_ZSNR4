@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+.header {
+    background-color: lightgreen;
+    height: 40px;
+}
+.nav {
+    background-color: blue;
+    height: 40px;
+}
+.aside {
+    background-color:olive;
+    height: 200px;
+    flex-basis: 50%;
+}
+.article {
+    background-color: red;
+    height: 160px;
+}
+.footer {
+    background-color: lightblue;
+    height: 40px;
+}
