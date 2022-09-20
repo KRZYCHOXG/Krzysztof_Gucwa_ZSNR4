@@ -1,6 +1,6 @@
 # Bardzo dobra robota!  ✅
 
-Stabilny Windows  💽
+Stabilnie wykrzaczony Windows  💽
 <br>
 
 <div align="center">
