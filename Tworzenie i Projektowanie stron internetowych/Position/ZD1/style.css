@@ -1,0 +1,103 @@
+* {
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sciana {
+    position: relative;
+    background-color: rgb(255, 245, 110);
+    height: 300px;
+    width: 300px;
+    left: 150px;
+    top: 250px;
+}
+.okno1 {
+    position: relative;
+    left: 330px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(10, 10, 10);
+}
+.okno2 {
+    position: relative;
+    top: -60px;
+    left: 205px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(10, 10, 10);
+}
+.drzwi {
+    position: relative;
+    top: 15px;
+    left: 260px;
+    height: 100px;
+    width: 70px;
+    background-color: rgb(255, 136, 0);
+}
+.klamka {
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    left: 265px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.dach {
+    position: relative;
+    top: -380px;
+    right: -100px;
+    width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 120px solid #F34A53;
+}
+.komin {
+    position: relative;
+    top: -560px;
+    left: 300px;
+    width: 20px;
+	height: 60px;
+    background-color: rgb(230, 22, 22);
+    margin: 40px;
+}
+.dym1 {
+    position: relative;
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    top: -700px;
+    left: 330px;
+	border: 5px solid #b3b3b3;
+	border-radius: 100%;
+}
+.dym2 {
+    position: relative;
+    background-color: gray;
+    width: 17px;
+    height: 17px;
+    top: -755px;
+    left: 305px;
+	border: 5px solid #b3b3b3;
+	border-radius: 100%;
+}
+.dym3 {
+    position: relative;
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    top: -815px;
+    left: 315px;
+	border: 5px solid #b3b3b3;
+	border-radius: 100%;
+}
+.dym4 {
+    position: relative;
+    background-color: gray;
+    width: 25px;
+    height: 25px;
+    top: -865px;
+    left: 275px;
+	border: 5px solid #b3b3b3;
+	border-radius: 100%;
+}
