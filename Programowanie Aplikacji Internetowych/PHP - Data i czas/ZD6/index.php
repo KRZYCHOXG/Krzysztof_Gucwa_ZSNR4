@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php  
-        header("refresh: 1");
+        header("refresh: 0.1");
         echo '<h1 style="text-transform:uppercase;">Teraz jest '.date('H:i:s').'</h1>';
         $teraz = new DateTime(date('Y-m-d'));
         $urodziny = new DateTime('2023-04-03');
