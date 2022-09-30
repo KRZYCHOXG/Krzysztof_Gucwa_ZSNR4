@@ -25,6 +25,7 @@
         echo '<br>';
         echo '<h1> Urodziny mam za ';
         echo $obliczenie->format('%m miesiecy i %d dni');
+        echo '<br>'.$date;
     ?>
 </body>
 </html>
