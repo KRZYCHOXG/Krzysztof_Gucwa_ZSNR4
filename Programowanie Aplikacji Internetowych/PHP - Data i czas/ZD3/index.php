@@ -9,10 +9,12 @@
 <body>
     <?php  
         echo '<h1 style="text-transform: uppercase;"> Ile zostało do końca roku szkolnego </h1>';
+        echo 'Dzisiaj jest '.date('D-m-Y').'<br>';
+        echo '<h2> Zostało </h2>';
         $teraz = new DateTime(date('Y-m-d'));
         $do_konca_roku = new DateTime('2023-06-24');
         $obliczenie = $teraz->diff($do_konca_roku);
-        echo $obliczenie->format('%m miesięcy,  %d dni');
+        echo $obliczenie->format('%m miesięcy i %d dni');
         echo '<br>';
         echo $obliczenie->format('%a dni');
     ?>
