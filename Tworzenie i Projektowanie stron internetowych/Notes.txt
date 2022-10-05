@@ -1,0 +1,25 @@
+Edytory WYSIWYG
+
+What You See is What You Get, pozwala tworzyc strone www bez znajomości kody HTML.
+Pracujemy nad elementami witryny w przybliżeniu tak, jak będą one wyglądały w oknie przeglądarki.
+
+PRZYKŁADY PROGRAMÓW
+` Adobe Dreamweaver
+` KompoZer
+` SharePoint Designer 2007 
+` Aptana Studio
+
+CMS
+
+System zarządzania treścią - oprogramowanie pozwalające na łatwe utworzenie serwisu WWW oraz jego późniejszą aktualizacje i rozbudowę przez redakcyjny personel nietechniczny. Kształtowanie treści i sposobu ich prezentacji w serwisie internetowych zarządzajanym przez CMS odbywa się za pomocą prostych w obsłudze interfejsów użytkownika, zazwyczaj w postacji stron WWW zawierających rozbudowane formularze i moduły.
+Głównym założeniem systemu CMS jest oddzielenie wyglądu od treści. Wprowadzone dane umieszczane są w bazie danych.
+Do prawidłowego funkcjonowania systemu CMS potrzebna jest baza danych, język skryptowy, serwer WWW oraz specjaalne oprogramowanie uruchamianie po stronie serwera.
+
+PRZYKŁADY CMS
+` Wordpress
+` Joomla!
+` Drupal
+` MediaWiki
+` Typolight
+` PHPNuke
+` TikiWikiw
