@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl_1.css">
+    <title>Restauracja Wszystkie Smaki</title>
+</head>
+<body>
+    <header class="baner">
+        <h1>Witamy w Restauracji Wszystkie Smaki</h1>
+    </header>
+    <main class="main">
+        <section class="panel-lewy">
+            <img src="
+           https://placeimg.com/800/480/any" alt="Nasze danie">
+        </section>
+        <section class="panel-prawy">
+            <h4>U nas dobrze zjesz!</h4>
+            <ol>
+                <li>Obiady od 40 zł</li>
+                <li>Przekąski od 10 zł</li>
+                <li>Kolacja od 20 zł</li>
+            </ol>
+        </section>
+        <section class="panel-dolny">
+            <h2>Zarezerwuj stolik on-line</h2>
+            <form action="rezerwacja.php" method="post">
+                <label>
+                    Data (format rrrr-mm-dd)
+                    <input type="text" name="data" id="">
+                </label>
+                <label>
+                    Ile osób
+                    <input type="number" name="ileOsob" id="">
+                </label>
+                <label>
+                    Numer telefonu
+                    <input type="text" name="telefon" id="">
+                </label>
+                <input type="checkbox" name="daneOsobowe" id="" value="zgoda">Zgadzam sie na przetwarzanie moich danych osobowych
+                <div class="btny">                
+                    <input class="form-btn" type="reset" value="WYCZYŚĆ">
+                    <input class="form-btn" type="button" value="REZERWUJ">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="stopka">
+        Strone internetową wykonał: 0x00000000VECTRAC
+    </footer>
+</body>
+</html>
