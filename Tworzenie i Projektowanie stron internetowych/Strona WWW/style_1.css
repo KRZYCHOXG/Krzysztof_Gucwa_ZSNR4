@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f6e5dc;
+}
+.baner {
+    background-color: #2f180c;
+    height: 60px;
+    text-align: center;
+    color: khaki;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.panel-lewy {
+    width: 60%;
+}
+.panel-lewy img {
+    height: 350px;
+}
+.panel-prawy {
+    font-size: 150%;
+    padding: 70px;
+}
+.panel-dolny {
+    width: 100%;
+    background-color: #d0b6a8;
+    text-align: center;
+}
+.panel-dolny label {
+    display: block;
+}
+.panel-dolny input {
+    display: block;
+    margin: 0 auto;
+}
+.panel-dolny input[name='daneOsobowe'] {
+    display: inline;
+}
+.panel-dolny .btny {
+    display: flex;
+    justify-content: center;
+}
+.panel-dolny .form-btn {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(54, 27, 9);
+    color: khaki;
+}
+.stopka {
+    background-color: rgb(48, 37, 13);
+    color: khaki;
+    height: 60px;
+}
