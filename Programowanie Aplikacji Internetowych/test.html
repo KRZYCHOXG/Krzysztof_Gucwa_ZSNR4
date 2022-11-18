@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Skrypt</title>
-     <style>
-        * {
-    #background-color: rgb(30,30,30);
-    #color: white;
-}
-body {
+        <style>
+        body {
     display: flex;
 }
 .konfigurator {
     width: 40%;
     padding-left: 10px;
+}
+.strona {
+    background-color: rgb(80,80,80);
+    color: white
 }
 .stronka {
     display: flex;
@@ -59,8 +59,20 @@ body {
         </p>
     </section>
     <script>
-        const przyciski = document.querySelectorAll('button')
-        
+        const strona = document.querySelector('.strona');
+        const img = document.querySelector('.strona img');
+        const ul = document.querySelector('.strona ul');
+        const akapit = document.querySelector('.strona pl');
+        const przyciski = document.querySelectorAll('button');
+        przyciski[0].addEventListener('click', ()=>{
+            strona.style.backgroundColor = 'Indigo';
+        })
+        przyciski[1].addEventListener('click', ()=>{
+            strona.style.backgroundColor = 'SteelBlue';
+        })
+        przyciski[2].addEventListener('click', ()=>{
+            strona.style.backgroundColor = 'Olive';
+        })
     </script>
 </body>
 </html>
