@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Skrypt</title>
-        <style>
-        body {
-    display: flex;
-}
-.konfigurator {
-    width: 40%;
-    padding-left: 10px;
-}
-.strona {
-    background-color: rgb(80,80,80);
-    color: white
-}
-.stronka {
-    display: flex;
-}
+    <style>    
+    body {
+        display: flex;
+    }
+    .konfigurator {
+        width: 40%;
+        padding-left: 10px;
+    }
+    .strona {
+        background-color: rgb(80,80,80);
+        color: white
+    }
+    .stronka {
+        display: flex;
+    }
     </style>
 </head>
 <body>
@@ -73,6 +73,30 @@
         przyciski[2].addEventListener('click', ()=>{
             strona.style.backgroundColor = 'Olive';
         })
+        const select = document.querySelector('select');
+        select.addEventListener('change', ()=> {
+            strona.style.color = select.value;
+        })
+        const czcionka = document.querySelector('input[name="czcionka"]');
+        czcionka.addEventListener('focusout', function() {
+            strona.style.fontSize = czcionka.value;
+        });
+        const ramka = document.querySelector('input[name="ramka"]');
+        ramka.addEventListener('change', ()=> {
+            if(ramka.checked) {
+                ramka.style.border = "2px solid black";
+            }
+            else {
+                ramka.style.border = "none";
+            }
+        });
+        const listaRadio = document.querySelectorAll('input[name="lista"]'); {
+        listaRadio.forEach(element => {
+            element.addEventListener('click', ()=> {
+                ul.setAttribute('type', element.value);
+            });
+        });
+        }
     </script>
 </body>
 </html>
