@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skrypt</title>
+     <style>
+        * {
+    #background-color: rgb(30,30,30);
+    #color: white;
+}
+body {
+    display: flex;
+}
+.konfigurator {
+    width: 40%;
+    padding-left: 10px;
+}
+.stronka {
+    display: flex;
+}
+    </style>
+</head>
+<body>
+    <section class="konfigurator">
+        <h3>konfigurator</h3>
+        <p>podaj kolor tła</p>
+        <button>Indigo</button>
+        <button>SteelBlue</button>
+        <button>Olive</button>
+        <p>podaj kolor czcionki</p>
+        <select name="kolor" id="">
+            <option value="white">white</option>
+            <option value="tan">tan</option>
+            <option value="bisque">bisque</option>
+            <option value="plum">plum</option>
+        </select>
+        <p>Podaj rozmiar czcionki w procentach, np. 200%</p>
+        <input type="text" name="czcionka" id="">
+        <p>Czy rysunek ma mieć ramke?</p>
+        <input type="checkbox" name="ramka" id="">Rysuj ramkę
+        <p>Jaki jest typ punktora?</p>
+        <input type="radio" name="lista" id="" value="disc">dysk
+        <input type="radio" name="lista" id="" value="square">kwadrat
+        <input type="radio" name="lista" id="" value="circle">okrag
+    </section>
+    <section class="strona">
+        <div class="stronka">
+            <img src="gibraltar.jpg" alt="">
+            <ul>
+                <li>element 1</li>
+                <li>element 2</li>
+                <li>element 3</li>
+            </ul>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </p>
+    </section>
+    <script>
+        const przyciski = document.querySelectorAll('button')
+        
+    </script>
+</body>
+</html>
