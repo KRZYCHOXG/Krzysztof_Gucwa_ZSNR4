@@ -1,0 +1,63 @@
+body {
+    background-color: #FFE4B5;
+    font-family: Helvetica, sans-serif;
+}
+.grupa {
+    position: fixed;
+    color: green;
+    font-size: 20px;
+    right: 10px;
+    font-style: italic;
+}
+header {
+    display: flex;
+}
+.baner {
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+    width: 75%;
+    height: 100px;
+    font-size: 150%;
+}
+.logo {
+    height: 100px;
+    width: 25%;
+}
+section {
+    display: flex;
+}
+.blok-lewy {
+    height: 300px;
+    width: 45%;
+}
+.blok-prawy {
+    height: 300px;
+    width: 55%;
+    text-align: center;
+}
+.blok-główny {
+    margin-top: 30px;
+    background-color: #4B0082;
+}
+.tabelka {
+    padding: 40px;
+}
+form {
+    margin: 40px;
+}
+.stopka {
+    background-color: #4B0082;
+    color: white;
+    padding: 40px;
+}
+table {
+    color: white;
+    text-align: center;
+    width: 90%;
+    border: 1px yellow dashed;
+}
+tr:hover {
+    color: yellow;
+    background-color: #9370DB;
+}
